@@ -36,7 +36,7 @@ namespace OOP2.Lesson2
 
 
             // Задание под (*)
-            firsthirdAccount.Transfer();
+            firsthirdAccount.Put();
             firsthirdAccount.Withdraw();
 
             Console.ReadKey();
