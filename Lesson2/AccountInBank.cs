@@ -51,7 +51,7 @@ namespace OOP2.Lesson2
             TypeOfAccount = type;
         }
 
-        public void Transfer()
+        public void Put()
         {
             Console.Write("Введите сумму для зачисления на счет:_ ");
             string sumString = Console.ReadLine();
