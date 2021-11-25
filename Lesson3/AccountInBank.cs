@@ -128,10 +128,7 @@ namespace OOP2.Lesson3
             counter++;
             _accountId = counter;
         }
-        private void GetBalance()
-        {
-            Console.WriteLine($"Текущий баланс составляет {Balance} у.е.");
-        }
+       
 
         private bool MoneyEnough (decimal balance, decimal sum)
         {
